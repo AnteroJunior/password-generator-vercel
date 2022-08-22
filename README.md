@@ -13,3 +13,5 @@ Copy your new password or click 'Create password' again to get a new one.
 ## Knowledge
 
 - [ ] React State (Hooks);
+
+Click [Password Generator](https://antero-password-generator.vercel.app/) to see it live.
