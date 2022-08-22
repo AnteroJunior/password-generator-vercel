@@ -1,0 +1,55 @@
+@media screen and (width <= 800px) {
+    .password-container {
+        width: 100vw !important;
+    }
+}
+
+.option-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.password-container {
+    width: 30vw;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.action-div {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2px;
+}
+
+.action-div input {
+    padding: 0 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    line-height: 35px;
+}
+
+.password-options {
+    font-size: 14px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    line-height: 25px;
+}
+
+input[type=number] {
+    width: 50px;
+    text-align: center;
+    border: 1px solid lightgray;
+    line-height: 25px;
+}

@@ -1,0 +1,21 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+
+.social a {
+    color: white;
+}
